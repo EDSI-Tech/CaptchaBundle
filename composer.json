@@ -18,10 +18,16 @@
     ],
     "require": {
         "php": ">=5.3.9",
-        "gregwar/captcha": "~1.1",
+        "sandropons/captcha": "patch-1",
         "symfony/framework-bundle": "~2.8|~3.0|~4.0",
         "symfony/form": "~2.8|~3.0|~4.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sandropons/Captcha.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Gregwar\\CaptchaBundle\\": "/"

@@ -32,5 +32,6 @@
         "type": "vcs",
         "url": "https://github.com/EDSI-Tech/Captcha.git"
       }
-    ]
+    ],
+    "minimum-stability": "dev"
 }

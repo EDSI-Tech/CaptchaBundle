@@ -32,5 +32,6 @@
         "psr-4": {
             "EDSI-Tech\\CaptchaBundle\\": "/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
